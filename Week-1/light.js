@@ -1,0 +1,1 @@
+onlight = document.getElementById
