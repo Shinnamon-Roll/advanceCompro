@@ -20,6 +20,8 @@ advanceCompro/
 
 ### Weekly Lectures
 - **Week-1/**: Week 1 lecture materials and code examples
+ - **Week-2/**: Week 2 lecture materials and code examples
+   ️- **Studytest**: practice exercises created under `Week-2/Studytest` (6 problems with stubs, hints, and README)
 - Additional weeks will be added as the course progresses
 
 ### Documents
@@ -54,3 +56,5 @@ advanceCompro/
 ---
 
 *Last updated: November 2025*
+
+*Last updated: December 5, 2025*
