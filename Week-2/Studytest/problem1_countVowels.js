@@ -16,9 +16,16 @@ console.log(countVowels("Hello World")); // คาดว่าได้ 3
 */
 
 function countVowels(str) {
-  // TODO: implement
-  // return number
-  return 0;
+    vovels = ['a', 'e', 'i', 'o', 'u'];
+    str = str.toLowerCase();
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (vovels.includes(str[i])) {
+            count += 1;
+        }
+    }
+  return count;
 }
 
 // ตัวอย่างทดสอบ (แก้ฟังก์ชันก่อนรัน)

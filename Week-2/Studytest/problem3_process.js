@@ -16,8 +16,8 @@ Hint:
 */
 
 const process = (nums) => {
-  // TODO: implement
-  return [];
+    return map(nums)
+    // return nums.map(n => n * n).filter(n => n > 10);
 }
 
 // ตัวอย่างทดสอบ

@@ -17,8 +17,10 @@ console.log(greet({name: 'Mai'})); // Hello Mai — you are unknown years old.
 */
 
 function greet(user) {
-  // TODO: implement
-  return '';
+    const name = user.name;
+    const age = user.age || 'unknown';
+    return `Hello ${name} — you are ${age} years old.`;
+
 }
 
 // ตัวอย่างทดสอบ
