@@ -1,0 +1,3 @@
+function updateInventory (currentInventory, newInventory) {
+    
+}
