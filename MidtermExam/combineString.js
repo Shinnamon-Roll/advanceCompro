@@ -23,22 +23,12 @@ function processAndCombineStrings(strings, lengthThreshold) {
 }
 
 function countVowels(words) { 
-    // return words.match(/[AEIOU]/gi).length;
-
-    const vowels = 'AEIOU'
-    let count = 0
-
-    for (char of words) {
-        if (vowels.includes(char)) {
-            count ++
-        }
-    }
-
-    return count
+    return words.match(/[AEIOU]/gi).length;
 }
 
 const strings = ["apple", "banana", "cherry", "date",
 "fig", "grape"];
+
 console.log (processAndCombineStrings (strings,5));
 
 console.log (processAndCombineStrings (strings, 6)) ;
